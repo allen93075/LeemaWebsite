@@ -24,4 +24,4 @@ jobs:
         aws-region: ${{ secrets.AWS_S3_WEBSITE_REGION }}
 
     - name: Deploy to S3
-      run: aws s3 sync . s3://www.leematrading.com --delete
+      run: aws s3 sync . s3://www.leematrading.com --delete --exclude ".git/*" --exclude ".github/*"
