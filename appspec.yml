@@ -1,0 +1,18 @@
+version: 0.0
+os: linux
+files:
+  - source: LeemaWebsite/
+    destination: /home/ubuntu/LeemaWebsite
+hooks:
+  BeforeInstall:
+    - location: scripts/stop_service.sh
+      timeout: 300
+      runas: ubuntu
+  AfterInstall:
+    - location: scripts/build_app.sh
+      timeout: 300
+      runas: ubuntu
+  ApplicationStart:
+    - location: scripts/start_service.sh
+      timeout: 300
+      runas: ubuntu
