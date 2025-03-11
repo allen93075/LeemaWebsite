@@ -8,7 +8,7 @@ const Banner = () => {
 
   return (
     <div
-      className="relative w-full h-screen"
+      className="relative w-full"
       style={{
         opacity: transparency,
         transform: `translateY(${transparency * 30}px)`,
