@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: LeemaWebsite/
+  - source: /
     destination: /home/ubuntu/LeemaWebsite/leematrading-frontend
 hooks:
   BeforeInstall:
