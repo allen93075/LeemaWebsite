@@ -26,9 +26,9 @@ const Banner = () => {
         />
         <div className="absolute inset-0 flex flex-col items-center justify-center bg-black/40 text-white text-center px-4">
           <p className="mt-4 text-lg max-w-2xl">
-            Redefining global trade with precision, innovation, and excellence.
+          Driving innovation, trust, and excellence in global trade.
             <br />
-            Discover the future of seamless business solutions.
+            Empowering businesses with seamless and strategic solutions.
           </p>
         </div>
       </div>

@@ -9,9 +9,9 @@ const Navbar = () => {
         {/* <Link href="/shop">
           <span className="text-lg hover:text-white transition-colors cursor-pointer">Shop</span>
         </Link> */}
-        <Link href="/about">
+        {/* <Link href="/about">
           <span className="text-lg hover:text-white transition-colors cursor-pointer">About Us</span>
-        </Link>
+        </Link> */}
         <Link href="/contact">
           <span className="text-lg hover:text-white transition-colors cursor-pointer">Contact</span>
         </Link>
