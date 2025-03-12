@@ -1,0 +1,23 @@
+{
+  "serviceDetail":
+  [
+      {
+        "id": 1,
+        "image": "/service/service1.jpeg",
+        "title": "Global Trade Solutions",
+        "description": "We provide end-to-end trade solutions ensuring seamless international business operations."
+      },
+      {
+        "id": 2,
+        "image": "/service/service2.jpeg",
+        "title": "Logistics & Supply Chain",
+        "description": "Optimizing your supply chain with innovative logistics and transportation solutions."
+      },
+      {
+        "id": 3,
+        "image": "/service/service3.jpeg",
+        "title": "E-commerce Integration",
+        "description": "Empowering online businesses with integrated digital solutions for success."
+      }
+    ]
+}
