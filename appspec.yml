@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ubuntu/LeemaWebsite/leematrading-frontend
+    destination: /home/ubuntu/LeemaWebsite/
 hooks:
   BeforeInstall:
     - location: scripts/stop_service.sh
